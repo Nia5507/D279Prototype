@@ -103,13 +103,16 @@ body {
 
 .home,.restaurants, .groceryStore, .lodging, .entertainment, .sightSeeing, .transportation, .faq {
   background-color: var(--teal);
+  color: var(--brown);
 }
 
+.pink-text {
+  color: var(--pink);
+}
 
 
 .nav-bar li a {
   font-size: 1.5vw;
-  color: var(--pink);
   text-decoration: none;
   font-weight: 800;
   display: block;
@@ -178,6 +181,12 @@ body {
 .main-content-flex {
   display: flex;
   width: 70%;
+  justify-content: space-around;
+}
+
+.main-content-flex-transportation {
+  display: flex;
+  width: 70%;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -205,7 +214,7 @@ body {
 
 .main-content-writing p, .main-content-writing ul {
   padding: 1vw;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   color: var(--brown);
 }
@@ -217,46 +226,7 @@ body {
   padding-left: 1vw;
 }
 
-#contact-form {
-  border-radius: 10px 100px 10px 100px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: 20px;
-}
 
-#contact-form input, #contact-form select {
-  margin-bottom: 20px;
-  background-color: var(--pink);
-  border: none;
-  padding: 7px;
-  border-radius: 10px;
-  width: 15vw;
-}
-
-#contact-form label {
-  font-weight: 600;
-  color: var(--brown);
-  font-size: 20px;
-  padding-bottom: 2px;
-}
-
-#submit {
-  background-color: var(--brown);
-  color: var(--pink);
-  width: 7vw;
-  height: 50px;
-  margin-top: 50px;
-  border: none;
-  border-radius: 5px;
-}
-
-#submit:hover, .nav-bar li a:hover {
-  color: var(--DimGray);
-}
 .footer {
     background-color: var(--brown);
     height: 5vw;
