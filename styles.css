@@ -170,10 +170,16 @@ body {
     flex-grow: 1;
 }
 
+.group1 {
+  display: flex;
+  flex-direction: row;
+}
+
 .main-content-flex {
   display: flex;
   width: 70%;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .main-photo {
